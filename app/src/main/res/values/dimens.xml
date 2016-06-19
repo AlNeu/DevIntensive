@@ -2,4 +2,30 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- font size material design -->
+    <dimen name="font_size_app_bar">20sp</dimen>
+    <dimen name="font_size_button">14sp</dimen>
+    <dimen name="font_size_sub_head">16sp</dimen>
+    <dimen name="font_size_body1">14sp</dimen>
+
+    <!-- margins, increments, spacing  material design-->
+    <dimen name="activity_horizontal_margin_content">72dp</dimen>
+
+    <dimen name="activity_vertical_status_bar">24dp</dimen>
+    <dimen name="activity_vertical_tool_bar">56dp</dimen>
+    <dimen name="activity_vertical_subtitle">48dp</dimen>
+    <dimen name="activity_vertical_list_item">72dp</dimen>
+    <dimen name="activity_vertical_space_between_item">8dp</dimen>
+
+    <dimen name="activity_vertical_key8">8dp</dimen>
+    <dimen name="activity_vertical_key16">16dp</dimen>
+    <dimen name="activity_vertical_key24">24dp</dimen>
+    <dimen name="activity_vertical_key48">48dp</dimen>
+    <dimen name="activity_vertical_key64">64dp</dimen>
+    <dimen name="activity_vertical_key56">56dp</dimen>
+    <dimen name="activity_vertical_key72">72dp</dimen>
+    <dimen name="activity_vertical_key80">80dp</dimen>
+    <dimen name="activity_vertical_key88">88dp</dimen>
+
 </resources>
