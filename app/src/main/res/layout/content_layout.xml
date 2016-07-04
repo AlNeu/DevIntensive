@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:orientation="horizontal"
+        android:background="@color/color_dark_grey"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_vertical_key88"
+            android:orientation="horizontal">
+
+            <LinearLayout style="@style/linear_black"
+                          android:layout_weight="100">
+
+                <TextView
+                    style="@style/text_style.white.large"
+                    android:text="@string/num_rating"
+                    android:id="@+id/textView1"/>
+                <TextView
+                    style="@style/text_style.white.small"
+                    android:text="@string/rating"
+                    android:id="@+id/textView2"/>
+
+            </LinearLayout>
+
+            <View  style="@style/vertical_line" />
+
+            <LinearLayout style="@style/linear_black"
+                          android:layout_weight="75">
+
+                <TextView
+                    style="@style/text_style.white.large"
+                    android:text="@string/num_rows_cod"
+                    android:id="@+id/textView3"/>
+                <TextView
+                    style="@style/text_style.white.small"
+                    android:text="@string/write_rows_cod"
+                    android:id="@+id/textView4"/>
+
+            </LinearLayout>
+
+            <View  style="@style/vertical_line" />
+
+            <LinearLayout style="@style/linear_black"
+                          android:layout_weight="100">
+
+                <TextView
+                    style="@style/text_style.white.large"
+                    android:text="@string/num_projects"
+                    android:id="@+id/textView5"/>
+                <TextView
+                    style="@style/text_style.white.small"
+                    android:text="@string/projects"
+                    android:id="@+id/textView6"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        >
+
+        <!--Телефон-->
+        <LinearLayout style="@style/linear_base">
+            <ImageView style="@style/image"
+                       android:src="@drawable/ic_phone_black_24dp"/>
+
+            <LinearLayout style="@style/linear_white">
+                <android.support.design.widget.TextInputLayout style="@style/edit_text_item">
+
+                    <EditText style="@style/text_style.black"
+                              android:id="@+id/phone_et"
+                              android:hint = "Мобильный телефон"
+                              android:inputType="phone"
+                              android:text="+7(926)040-12-70">
+                    </EditText>
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView  style="@style/image"
+                        android:id="@+id/call_phone_img"
+                        android:src="@drawable/ic_phone_in_talk_black_24dp"
+                        android:onClick="call_phone"/>
+
+        </LinearLayout>
+        <View style="@style/horizontal_line"/>
+
+        <!--E-mail-->
+        <LinearLayout style="@style/linear_base">
+            <ImageView style="@style/image"
+                       android:src="@drawable/ic_email_black_24dp"/>
+
+            <LinearLayout style="@style/linear_white">
+                <android.support.design.widget.TextInputLayout style="@style/edit_text_item">
+
+                    <EditText style="@style/text_style.black"
+                              android:id="@+id/email_et"
+                              android:hint = "E-mail"
+                              android:inputType="textEmailAddress"
+                              android:text="aneu.it@gmail.com">
+                    </EditText>
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView  style="@style/image"
+                        android:src="@drawable/ic_send_black_24dp"/>
+
+        </LinearLayout>
+        <View style="@style/horizontal_line"/>
+
+        <!--Профиль в VK-->
+        <LinearLayout style="@style/linear_base">
+            <ImageView style="@style/image"
+                       android:src="@drawable/vk"/>
+
+            <LinearLayout style="@style/linear_white">
+                <android.support.design.widget.TextInputLayout style="@style/edit_text_item">
+
+                    <EditText style="@style/text_style.black"
+                              android:id="@+id/vk_et"
+                              android:hint = "Профиль в VK"
+                              android:inputType="textUri"
+                              android:text="https://vk.com/id366939479">
+                    </EditText>
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView  style="@style/image"
+                        android:src="@drawable/ic_remove_red_eye_black_24dp"/>
+
+        </LinearLayout>
+        <View style="@style/horizontal_line"/>
+
+        <!--Репозиторий-->
+        <LinearLayout style="@style/linear_base">
+            <ImageView style="@style/image"
+                       android:src="@drawable/gitcat"/>
+
+            <LinearLayout style="@style/linear_white">
+                <android.support.design.widget.TextInputLayout style="@style/edit_text_item">
+
+                    <EditText style="@style/text_style.black"
+                              android:id="@+id/githab_et"
+                              android:hint = "Репозиторий"
+                              android:inputType="textUri"
+                              android:text="https://github.com/AlNeu/DevIntensive/">
+                    </EditText>
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView  style="@style/image"
+                        android:src="@drawable/ic_remove_red_eye_black_24dp"/>
+
+        </LinearLayout>
+        <View style="@style/horizontal_line"/>
+
+        <!--О себе-->
+        <LinearLayout style="@style/linear_base">
+            <ImageView style="@style/image"
+                       android:src="@drawable/ic_content_paste_black_24dp"/>
+
+            <LinearLayout style="@style/linear_white">
+                <android.support.design.widget.TextInputLayout style="@style/edit_text_item">
+
+                    <EditText style="@style/text_style.black"
+                              android:id="@+id/bio_et"
+                              android:singleLine="false"
+                              android:hint = "о себе"
+                              android:inputType="text|textMultiLine"
+                              android:text="@string/long_text"
+                              android:scrollIndicators="right">
+                    </EditText>
+
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+            <ImageView  style="@style/image"
+                />
+
+        </LinearLayout>
+        <View style="@style/horizontal_line"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

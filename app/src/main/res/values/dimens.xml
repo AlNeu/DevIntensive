@@ -3,6 +3,8 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
 
+    <dimen name="space_32">32dp</dimen>
+
     <!-- font size material design -->
     <dimen name="font_size_app_bar">20sp</dimen>
     <dimen name="font_size_button">14sp</dimen>
@@ -27,5 +29,10 @@
     <dimen name="activity_vertical_key72">72dp</dimen>
     <dimen name="activity_vertical_key80">80dp</dimen>
     <dimen name="activity_vertical_key88">88dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="profile_image_size">176dp</dimen>
 
 </resources>
