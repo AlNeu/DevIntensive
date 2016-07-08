@@ -20,6 +20,7 @@
     <dimen name="activity_vertical_list_item">72dp</dimen>
     <dimen name="activity_vertical_space_between_item">8dp</dimen>
 
+    <dimen name="activity_vertical_key4">4dp</dimen>
     <dimen name="activity_vertical_key8">8dp</dimen>
     <dimen name="activity_vertical_key16">16dp</dimen>
     <dimen name="activity_vertical_key24">24dp</dimen>
@@ -29,10 +30,16 @@
     <dimen name="activity_vertical_key72">72dp</dimen>
     <dimen name="activity_vertical_key80">80dp</dimen>
     <dimen name="activity_vertical_key88">88dp</dimen>
+    <dimen name="size_128">128dp</dimen>
+    <dimen name="size_136">136dp</dimen>
+    <dimen name="size_160">160dp</dimen>
+    <dimen name="size_240">240dp</dimen>
+    <dimen name="size_360">360dp</dimen>
+
 
     <dimen name="app_bar_height">180dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="text_margin">16dp</dimen>
-    <dimen name="profile_image_size">176dp</dimen>
+    <dimen name="profile_image_size">256dp</dimen>
 
 </resources>

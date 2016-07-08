@@ -7,17 +7,16 @@
                 android:paddingLeft="@dimen/activity_vertical_key16"
                 android:paddingBottom="@dimen/activity_vertical_key8"
                 android:fitsSystemWindows="true"
-                android:background="@drawable/header_bg"
+                android:background="@drawable/user_bg"
                     >
-
 
     <ImageView
         android:id="@+id/user_logo_img"
         style="@style/icon_user"
-        android:background="@color/color_accent"
         android:layout_marginTop="@dimen/activity_vertical_key16"
         android:layout_marginLeft="@dimen/activity_vertical_key16"
-        android:src="@drawable/logo60"/>
+        android:src="@drawable/logo60"
+        />
 
     <LinearLayout
         android:orientation="vertical"

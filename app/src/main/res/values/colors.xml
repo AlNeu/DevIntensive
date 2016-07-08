@@ -4,6 +4,7 @@
     <color name="color_primary_dark">#303F9F</color>
     <color name="color_accent">#FF4081</color>
     <color name="color_grey">#aaaaaa</color>
+    <color name="color_grey_background">#454545</color>
     <color name="color_dark_grey">#505050</color>
     <color name="color_black">#000000</color>
     <color name="color_light_grey">#dddddd</color>
@@ -13,4 +14,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_login">#e74b3c</color>
 </resources>
