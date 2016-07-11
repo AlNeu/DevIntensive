@@ -119,13 +119,20 @@
     </style>
 
 
-
-
-
     <style name="icon_user">
         <item name="android:layout_width">60dp</item>
         <item name="android:layout_height">60dp</item>
     </style>
+
+    <style name="card_view">
+        <item name="android:layout_width">@dimen/size_240</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">@dimen/size_136</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+
 
 
 
